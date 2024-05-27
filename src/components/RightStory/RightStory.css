@@ -1,0 +1,27 @@
+.About-Story p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #a5a5a5;
+    margin: 0px 0px 18px 0px !important;
+}
+
+.About-Story_img{
+    width: 100% !important;
+}
+
+.About-Story_img img{
+    border-radius: 8px !important;
+}
+
+.ul-List ul li{
+    list-style:circle !important;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.About-sign {
+    margin-left: 75px !important;
+    border-left: 1px solid #ccc !important;
+    padding-left: 75px !important;
+}

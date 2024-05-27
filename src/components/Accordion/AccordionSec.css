@@ -1,0 +1,40 @@
+.SecAccordion .accordion-item{
+    border-radius: 0 !important; 
+}
+.SecAccordion button{
+    border-radius: 0 !important;
+    background-color: #eaeaea !important;
+    font-size: 18px !important;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+
+.SecAccordion .accordion-body{
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--blackColor) !important;
+    background-color: #eaeaea !important;
+    box-shadow: 0 !important;
+}
+
+.accordion-button:focus {
+    color: var(--blackColor) !important;
+    background-color: #eaeaea !important;
+    border-color: transparent !important;;
+    box-shadow: 0 0 0 0rem transparent !important;
+    z-index: 0 !important;
+    outline: 0;
+}
+
+.accordion-button::after {
+    background-image: var(--imgIcon) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--imgIcon) !important;
+    transform: rotate(45deg) !important;
+}

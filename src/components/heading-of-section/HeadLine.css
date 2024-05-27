@@ -1,0 +1,12 @@
+h2{
+    font-size: 36px !important;    
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+}
+
+.HR{
+    width: 100%;
+    margin: auto;
+    height: 1px;
+    background-color: var(--blackColor);
+}

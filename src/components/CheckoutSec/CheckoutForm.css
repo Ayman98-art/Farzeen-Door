@@ -1,0 +1,31 @@
+.input-Billing{
+    width: 100% !important;
+    padding: 10px !important;
+    border-radius: 0 !important;
+    font-family: 'Kanit', sans-serif;
+    color: var(--blackColor) !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}
+
+.option:focus{
+    font-family: 'Kanit', sans-serif;
+    color: #ccc !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}
+
+.input-Billing:focus{
+    border: 1px solid #000 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked {
+    background-color: #b8860b !important;
+    border-color: #b8860b !important;
+}
+
+.btn-create{
+    border-radius: 0 !important;
+}

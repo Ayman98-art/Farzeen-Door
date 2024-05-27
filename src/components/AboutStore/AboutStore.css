@@ -1,0 +1,43 @@
+.store00 img{
+    padding: 15px;
+    border-radius: 25px !important;
+}
+
+.head-store00 h3{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.head-store00 p,
+.head-store00 ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+}
+
+.head-store00 ul li{
+    list-style: circle !important;
+    font-size: 17px;
+    margin: 10px 0px 10px -10px;
+}
+
+.head-store00 ul li::marker{
+    font-size: 23px !important;
+}
+
+
+.head-store00 button{
+    border-radius:5px !important;
+}
+
+.head-store00 button a{
+    text-decoration: none !important;
+    color: var(--wihitColor);
+}
+
+.head-store00 button a:hover{
+    color: var(--blackColor) !important;
+}

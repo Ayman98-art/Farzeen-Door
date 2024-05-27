@@ -1,0 +1,64 @@
+.LeftStory01{
+    width: 65%;
+}
+
+.LeftStory01 img{
+    border-radius: 12px;
+    position: relative;
+}
+
+.LeftStory03{
+    position: absolute;
+    top: 76%;
+    left: 33%;
+    width: 16%;
+}
+
+.LeftStory03::after{
+    content: "Since from 2010 👽";
+    position: absolute;
+    top: 150px;
+    left: -40px;
+    width: 50%;
+    height: 20%;
+    z-index: 39;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.LeftStory03::before{
+    content: "";
+    position: absolute;
+    top: 160px;
+    left: -42px;
+    width: 50%;
+    height: 20%;
+    background-color: #b8860b;
+    border-radius: 8px;
+    z-index: 29;
+    transform: rotate(5deg);
+}
+
+.LeftStory02 {
+    width: 9% !important;
+    margin-left: 75px !important;
+}
+
+.LeftStory02 img:nth-of-type(2),
+.LeftStory02 img:nth-of-type(3),
+.LeftStory02 img:nth-of-type(4),
+.LeftStory02 img:nth-of-type(5){
+    margin-left: -14px;
+}
+
+.LeftStory span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.LeftStory span:first-child{
+    font-weight: 500 !important;
+}

@@ -1,0 +1,13 @@
+.BrandSponsers .owl-nav{
+    display: none ;
+}
+
+#root > div > div > div > div.owl-stage-outer > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 40px;
+}

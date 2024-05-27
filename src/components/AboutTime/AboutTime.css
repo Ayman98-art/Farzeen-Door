@@ -1,0 +1,80 @@
+.about-time{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.about-card .card{
+    border: none !important;
+    border-radius: 0 !important;
+    overflow: hidden;
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(0deg, rgba(58, 58, 58, .99), transparent 60%);;
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+    z-index: 20;
+}
+
+.card_img{
+    position: relative;
+}
+
+.card_head{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+    z-index: 35;
+    transition: bottom .4s;
+}
+
+.left-line{
+    position: absolute;
+    border-left: 1px solid var(--wihitColor);
+    left: 45px;
+    bottom: 20px;
+    z-index: 35;
+    text-align: center;
+    height: 45px !important;
+    transition: bottom .4s;
+}
+
+.card_head h4, .card_head p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--wihitColor);
+    margin: 0px !important;
+}
+
+.card_head p{
+    font-size: 18px;
+}
+
+.card-icons{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 39;
+    transition: all .7s;
+}
+
+.card:hover .card_head,
+.card:hover .left-line{
+    bottom: 70px;
+}
+
+.card:hover .card-icons{
+    bottom: 10px;
+}

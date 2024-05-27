@@ -1,0 +1,30 @@
+.under-lines{
+    padding-left: 0 !important;
+}
+#root > div:nth-child(8) > div.container > div > div:nth-child(4) > div.list-Links.pl-0.pt-3 > ul{
+    padding-left: 12px !important;
+}
+
+.under-lines li{
+    padding: 7px 0px;
+    cursor: pointer;
+}
+
+.under-lines li a {
+    color: rgb(95, 95, 95);
+    transition: color .4s;
+}
+
+.under-lines li:hover a{
+    color: #b8860b;
+}
+
+.link-border{
+    border-bottom: 1px solid rgba(95, 95, 95, 0.671);
+    padding: 14px 0px !important;
+    transition: color .4s;
+}
+
+.link-border:hover{
+    border-color: #b8860b;
+}

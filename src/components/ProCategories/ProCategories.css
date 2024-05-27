@@ -1,0 +1,18 @@
+.ProCategories-head h2{
+    font-size: 25px !important;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.ProCategories-head ul li{
+    padding: 2.5px;
+}
+
+.active{
+    color: #b8860b !important;
+}
+
+.ProCategories-head ul li:hover{
+    color: #b8860b !important;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.contentRoot h6{
+    font-size: 18px;
+    color: #80808099;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.contentRoot ul li{
+    padding: 0px 15px;
+    position: relative;
+}
+.contentRoot ul li a{
+    position: relative;
+    
+}
+
+.contentRoot ul li a::after{
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: border .4s;
+}
+
+.contentRoot ul li a:hover:after{
+    border: 1px solid #b8860b;
+
+}
+
+.pl-250{
+    padding-left: 250px;
+}

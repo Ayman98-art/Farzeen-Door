@@ -1,0 +1,16 @@
+.goupfilter{
+    position: relative;
+    bottom:  -173px;
+}
+
+.FilteringShop{
+    background-color: #f8f8f8;
+    border: 1px solid #f0f0f0;
+    margin: 15px 0px;
+}
+
+.btn-selection--active {
+    background-color: #b8860b !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+}

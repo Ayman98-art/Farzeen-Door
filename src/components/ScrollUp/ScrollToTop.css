@@ -1,0 +1,7 @@
+.ScrollToTop{
+    transition: all .4s;
+}
+
+.ScrollToTop:hover{
+    transform: translateY(10px);
+}

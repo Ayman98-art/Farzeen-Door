@@ -1,0 +1,20 @@
+.page-link {
+    color: #000 !important;
+    background-color: #fff !important;
+    font-size: 22px !important;
+}
+
+.page-link:hover,
+.page-link:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #b8860b !important;
+    color: #fff !important;
+    background-color: #b8860b !important;
+}
+
+.active>.page-link, .page-link.active {
+    border-color: #b8860b !important;
+    color: #fff !important;
+    background-color: #b8860b !important;
+}

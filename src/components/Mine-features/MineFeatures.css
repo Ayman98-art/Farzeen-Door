@@ -1,0 +1,25 @@
+.FeaturedSec{
+    cursor: pointer;
+}
+.FeaturedSec:hover .FeaturedSec-img{
+    transform: translateY(8px);
+}
+.FeaturedSec-img{
+    padding-right: 5px;
+    transition: all .4s;
+}
+.FeaturedSec-text{
+    padding-left: 5px;
+}
+.FeaturedSec-text h4{
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2px !important;
+}
+.FeaturedSec-text h6{
+    font-size: 19px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2px !important;
+}

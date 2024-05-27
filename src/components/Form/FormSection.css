@@ -1,0 +1,29 @@
+.FormSection h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px !important;
+    font-weight: 500;
+    margin-left: 12px !important;
+    margin-bottom: -5px !important;
+}
+
+.error{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: crimson;
+    padding: 0px 0px 0px 22px;
+}
+
+.formSec input, .formSec textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;;
+}
+
+.btn-valid{
+    margin-top: 25px !important;
+    width: 30% !important;
+    box-shadow: 0px 0px 8px -1px #22222283;
+}

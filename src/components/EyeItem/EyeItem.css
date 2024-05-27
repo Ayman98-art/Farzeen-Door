@@ -1,0 +1,26 @@
+.eye-show{
+    display: inline;
+}
+
+.btn-add a{
+    text-decoration: none !important;
+    color: var(--blackColor);
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.4s;
+}
+.btn-add a:hover{
+    color: #b8860b;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+.modal-header .btn-close{
+    transition: transform 0.4s;
+}
+
+.modal-header .btn-close:hover{
+    transform: rotate(45deg) !important;
+    color: #b8860b !important;
+}

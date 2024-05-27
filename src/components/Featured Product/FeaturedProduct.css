@@ -1,0 +1,51 @@
+.group_product{
+    position: relative;
+    overflow: hidden;
+}
+
+.group_product-image{
+    height: auto !important;
+}
+.group_product-image img{
+    height: auto !important;
+}
+
+.group_product-icons{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: all .4s ease-out;
+}
+
+.group_product-icons svg{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.group_product:hover .group_product-icons{
+    top: 40%;
+    visibility: visible;
+    overflow: auto;
+}
+
+.group_product-text h3{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.group_product-text h3:hover{
+    color: #b8860b;
+}
+
+.group_product-text span,
+.group_product-text del{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    padding-right: 15px;
+}

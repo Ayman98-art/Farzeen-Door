@@ -1,0 +1,45 @@
+.SignSection{
+    border: 1px solid #bbb8b8 !important;
+    border-radius: 5px;
+}
+.SignSection input{
+    border: 1px solid #bbb8b8 !important;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+}
+
+.SignSection .btn-Sign{
+    width: 30% !important;
+    border-radius: 0 !important;
+}
+
+.SignHead h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px !important;
+    font-weight: 500;
+    margin-left: 5px !important;
+    margin-bottom: -5px !important;
+}
+
+.error{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: crimson;
+    padding: 0px 0px 0px 22px;
+}
+
+.Forget a{
+    text-decoration: none !important;
+    color: var(--blackColor) !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.SignSection select{
+    border: 1px solid #bbb8b8 !important;
+    border-radius: 5px;
+    padding: 5px;
+}

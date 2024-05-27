@@ -1,0 +1,8 @@
+#root > div.pt-5.cccs.bg-light > div.container.mx-48.text-center > h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.SocialSection hr {
+    display: none;
+}

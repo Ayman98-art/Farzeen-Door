@@ -1,0 +1,19 @@
+.pt-100{
+    padding-top: 100px;
+}
+
+.logoImg img{
+    width: 120px;
+}
+
+#root > div.pt-100.bg-light.text-center > p{
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    color: rgb(95, 95, 95);
+}
+
+.payment-img > img {
+    cursor: pointer;
+    width: 40%;
+}

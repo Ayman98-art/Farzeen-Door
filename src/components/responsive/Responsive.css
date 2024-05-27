@@ -1,0 +1,653 @@
+/* Basic Screen For Responsive */
+@media (max-width: 430px) {
+    .minWidth{
+        margin: 22px 0px;
+    }
+
+    #root > nav.bg-dark.navbar.navbar-expand-lg.navbar-light{
+        display: none;
+    }
+
+    #root > div.mx-48.container > h2{
+        text-align: center;
+    }
+
+    #root > div.mx-48.container,
+    #root > div.pt-5.cccs.bg-light > div.container.mx-48.text-center{
+        margin: 0px 0px !important;
+    }
+
+    .svg-img{
+        top: 42%;
+        left: 42%;
+    }
+
+    #root > div:nth-child(5) > div.pt-100.text-center.logoImg > p{
+        font-size: 18px;
+    }
+
+    .payment-img > img{
+        cursor: pointer;
+        width: 65%;
+    }
+
+    #root > div:nth-child(5) > div.container > div > div:nth-child(4) > div.list-Links.pl-0.pt-3{
+        padding-left: 15px;
+    }
+
+    .link-border svg{
+        margin-bottom: 10px;
+    }
+    .contentRoot h6 {
+        font-size: 14px;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul{
+        padding-left: 0px;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul > li:nth-child(1){
+        padding-left: 0px !important;
+    }
+
+    #root > div.pt-5.px-4.container > div{
+        padding-left: 18px !important;
+    }
+
+    .text-group {
+        padding-left: 38px !important;
+    }
+
+    .text-group h3 {
+        font-size: 35px !important;
+    }
+
+    .text-group p {
+        font-size: 13px !important;
+    }
+
+    .btn-offer{
+        width: 50% !important;
+    }
+
+    .offer-img{
+        display: none;
+    }
+
+    .padding-all{
+        padding: 10px !important;
+    }
+
+    .blog-imgs00{
+        margin-bottom: 12px !important;
+    }
+
+    .store00 img {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .goupfilter{
+        bottom:  0px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .minWidth{
+        margin: 22px 0px;
+    }
+
+    #root > nav.bg-dark.navbar.navbar-expand-lg.navbar-light{
+        display: none;
+    }
+
+    #root > div.mx-48.container > h2{
+        text-align: center;
+    }
+
+    #root > div.mx-48.container,
+    #root > div.pt-5.cccs.bg-light > div.container.mx-48.text-center{
+        margin: 0px 0px !important;
+    }
+
+    .svg-img{
+        top: 42%;
+        left: 42%;
+    }
+
+    #root > div:nth-child(5) > div.pt-100.text-center.logoImg > p{
+        font-size: 18px;
+    }
+
+    .payment-img > img{
+        cursor: pointer;
+        width: 65% !important;
+    }
+
+    #root > div:nth-child(5) > div.container > div > div:nth-child(4) > div.list-Links.pl-0.pt-3{
+        padding-left: 15px;
+    }
+
+    .link-border svg{
+        margin-bottom: 10px;
+    }
+    .contentRoot h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul{
+        padding-left: 0px;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul > li:nth-child(1){
+        padding-left: 0px !important;
+    }
+
+    #root > div.pt-5.px-4.container > div > div:nth-child(3),
+    #root > div.pt-5.px-4.container > div > div:nth-child(4){
+        padding-top: 20px;
+    }
+
+    .text-group {
+        padding-left: 38px !important;
+    }
+
+    .text-group h3 {
+        font-size: 42px !important;
+    }
+
+    .text-group p {
+        font-size: 16px !important;
+    }
+
+    .btn-offer{
+        width: 50% !important;
+        margin-bottom: 15px;
+    }
+
+    .blog-imgs00{
+        margin-bottom: 12px !important;
+    }
+
+    .store00 img {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .goupfilter{
+        bottom:  0px;
+    }
+}
+
+@media (max-width: 890px) { 
+    #root > nav.bg-dark.navbar.navbar-expand-lg.navbar-light > div > button{
+        border: 1px solid var(--blackColor);
+        background-color: #212529;
+    }
+
+    #root > nav.bg-dark.navbar.navbar-expand-lg.navbar-light > div > button > span{
+        filter: invert(1);
+    }
+
+    #navbarScroll > ul{
+        padding-left: 0px ;
+    }
+
+    .item {
+        padding: 15px !important;
+    }
+
+    .svg-img{
+        top: 42%;
+        left: 42%;
+    }
+
+    #root > div:nth-child(5) > div.pt-100.text-center.logoImg > p{
+        font-size: 18px;
+    }
+
+    .payment-img > img{
+        cursor: pointer;
+        width: 65% !important;
+    }
+
+    #root > div:nth-child(5) > div.container > div > div:nth-child(4) > div.list-Links.pl-0.pt-3{
+        padding-left: 15px;
+    }
+
+    .link-border svg{
+        margin-bottom: 10px;
+    }
+    .contentRoot h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul{
+        padding-left: 0px;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul > li:nth-child(1){
+        padding-left: 0px !important;
+    }
+
+    #root > div.pt-5.px-4.container > div > div:nth-child(4){
+        padding-top: 20px;
+    }
+
+    .text-group {
+        padding-left: 32px !important;
+    }
+
+    .text-group h3 {
+        font-size: 42px !important;
+    }
+
+    .text-group p {
+        font-size: 16px !important;
+    }
+
+    .btn-offer{
+        width: 50% !important;
+        margin-bottom: 15px;
+    }
+
+    .blog-imgs00{
+        margin-bottom: 12px !important;
+    }
+
+    .store00 img {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .goupfilter{
+        bottom:  0px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    #root > nav.bg-dark.navbar.navbar-expand-lg.navbar-light > div > button{
+        border: 1px solid var(--blackColor);
+        background-color: #212529;
+    }
+
+    #root > nav.bg-dark.navbar.navbar-expand-lg.navbar-light > div > button > span{
+        filter: invert(1);
+    }
+
+    #navbarScroll > ul{
+        padding-left: 0px ;
+    }
+
+    .item {
+        padding: 15px !important;
+    }
+
+    .svg-img{
+        top: 42%;
+        left: 42%;
+    }
+
+    #root > div:nth-child(5) > div.pt-100.text-center.logoImg > p{
+        font-size: 18px;
+    }
+
+    .payment-img > img{
+        cursor: pointer;
+        width: 65% !important;
+    }
+
+    #root > div:nth-child(5) > div.container > div > div:nth-child(4) > div.list-Links.pl-0.pt-3{
+        padding-left: 15px;
+    }
+
+    .link-border svg{
+        margin-bottom: 10px;
+    }
+    .contentRoot h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul{
+        padding-left: 0px;
+    }
+
+    #root > div.px-5.contentRoot.container > div > div:nth-child(2) > ul > li:nth-child(1){
+        padding-left: 0px !important;
+    }
+
+    .bg-Subscribe {
+        padding: 65px !important;
+    }
+
+    #root > div.bg-Subscribe > div > div{
+        text-align: center;
+    }
+
+    #root > div.bg-Subscribe > div > div > div:nth-child(2) > div{
+        justify-content: center;
+    }
+
+    #root > div.pt-5.px-4.container > div > div:nth-child(4){
+        padding-top: 20px;
+    }
+
+    .text-group {
+        padding-left: 32px !important;
+    }
+
+    .text-group h3 {
+        font-size: 42px !important;
+    }
+
+    .text-group p {
+        font-size: 16px !important;
+    }
+
+    .btn-offer{
+        width: 50% !important;
+        margin-bottom: 15px;
+    }
+
+    .blog-imgs00{
+        margin-bottom: 12px !important;
+    }
+
+    .store00 img {
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .goupfilter{
+        bottom:  0px;
+    }
+
+}
+
+/* spcail screen for ( hero section ) (1) */
+@media (min-width: 769px) and (max-width: 997PX) {
+    .heroHigth {
+        height: 117vh !important;
+        margin-bottom: 40px;
+    }
+
+    .sliderText{
+        margin-bottom: 45px;
+    }
+
+    .imgText-img {
+        top: 75% !important;
+        left: 85% !important;
+    }
+
+    .imgText span {
+        top: 79% !important;
+        left: 88% !important;
+    }
+
+    .SLiderImg {
+        height: 483px;
+    }
+
+    .SLiderImg-door {
+        width: 39% !important;
+    }
+
+    .SLiderImg-door::after {
+        left: -15px !important;
+    }
+
+    .SLiderImg-door img {
+        left: -80% !important;
+    }
+
+}
+
+/* spcail screen for ( hero section ) (2) */
+@media (max-width: 500PX) {
+    .heroHigth {
+        height: auto !important;
+        margin-bottom: 40px;
+    }
+
+    .sliderText{
+        margin-bottom: 45px;
+    }
+
+    .imgText-img {
+        top: 75% !important;
+        left: 85% !important;
+    }
+
+    .imgText span {
+        font-size: 22px;
+        top: 77% !important;
+        left: 89% !important;
+    }
+
+    .SLiderImg {
+        height: 428px !important;
+    }
+
+    .SLiderImg-door {
+        width: 39% !important;
+    }
+
+    .SLiderImg-door::after {
+        left: -15px !important;
+        height: 420px !important;
+    }
+
+    .SLiderImg-door img {
+        top: 70px !important;
+        left: -85% !important;
+        padding: 0px !important;
+    }
+
+}
+
+/* spcail screen for ( hero section ) (3) */
+@media (min-width: 501PX) and (max-width: 768PX) {
+    .heroHigth {
+        height: 120vh !important;
+        margin-bottom: 40px;
+    }
+
+    .sliderText{
+        margin-bottom: 45px;
+    }
+
+    .imgText-img {
+        top: 75% !important;
+        left: 85% !important;
+    }
+
+    .imgText span {
+        top: 78% !important;
+        left: 89% !important;
+    }
+
+    .SLiderImg {
+        height: 428px;
+    }
+
+    .SLiderImg-door {
+        width: 39% !important;
+    }
+
+    .SLiderImg-door img {
+        position: relative;
+        top: 33px;
+        left: -85%;
+        padding: 12px;
+    }
+
+    .SLiderImg-door::after {
+        left: -15px !important;
+    }
+
+}
+
+/* spcail screen for ( Subscribe ) */
+@media (max-width: 575px) {
+    .bg-Subscribe {
+        padding: 25px !important;
+    }
+
+    #root > div.bg-Subscribe > div > div > div:nth-child(2) > div{
+        flex-direction: column;
+    }
+
+    .btn-Subscribe{
+        width: 100%;
+    }
+}
+
+/* spcail screen for ( Offer Section ) */
+@media (max-width: 1107px) {
+    .text-group {
+        padding-left: 32px !important;
+    }
+
+    .text-group h3 {
+        font-size: 45px !important;
+    }
+
+    .text-group p {
+        font-size: 18px !important;
+    }
+
+    .btn-offer{
+        width: 50% !important;
+        margin-bottom: 15px;
+    }
+}
+
+/* spcail screen for (Our Team Member and About Our Story in about page ) */
+@media (min-width: 992px) and (max-width: 1115px) {
+    .left-line {
+        left: 30px !important;
+    }
+
+    .card-icons {
+        left: -20px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory03::after {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .LeftStory03 {
+        left: 30%;
+    }
+
+}
+
+@media (min-width: 890px) and (max-width: 991px) {
+    .left-line {
+        left: 225px !important;
+    }
+
+    .card-icons {
+        left: 180px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory01 {
+        width: 100%;
+    }
+
+    .LeftStory03 {
+        top: 120%;
+        left: 65%;
+        width: 27%;
+    }
+
+    .LeftStory03::after {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 889px) {
+    .left-line {
+        left: 225px !important;
+    }
+
+    .card-icons {
+        left: 180px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory03{
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .left-line {
+        left: 150px !important;
+    }
+
+    .card-icons {
+        left: 100px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory03{
+        display: none;
+    }
+}
+
+@media (min-width: 529px) and (max-width: 599px) {
+    .left-line {
+        left: 140px !important;
+    }
+
+    .card-icons {
+        left: 100px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory03{
+        display: none;
+    }
+}
+
+@media (min-width: 485px) and (max-width: 599px) {
+    .left-line {
+        left: 120px !important;
+    }
+
+    .card-icons {
+        left: 75px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory03{
+        display: none;
+    }
+}
+
+@media (max-width: 484px) {
+    .left-line {
+        left: 50px !important;
+    }
+
+    .card-icons {
+        left: 5px !important;
+        right: 0px !important;
+    }
+
+    .LeftStory03{
+        display: none;
+    }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+/* 
+font-family: 'Kanit', sans-serif;
+weigth: 300;400;500;600
+
+font-family: 'Roboto', sans-serif;
+weigth: 400;500;600;700
+*/
+
+@import url('./components/responsive/Responsive.css');
+
+:root{
+    /* Colors */
+    --wihitColor:#ffffff;
+    --blackColor:#000000;
+    --imgIcon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' height='18' width='18' viewBox='0 0 448 512' fill='%23052c10'%3e%3cpath fill-rule='evenodd'  d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3e%3c/svg%3e")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul, li, li a , a:hover{
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.mx-48{
+    margin: 0px 34px !important;
+}
+
+.bg-gray{
+    background-color: grey;
+    color: var(--blackColor);
+}
+
+.hasloading{
+    text-align: center;
+    margin: auto;
+    padding-top: 600px;
+}

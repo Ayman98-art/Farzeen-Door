@@ -1,0 +1,60 @@
+.table{
+    border:  1px solid #ccc;
+}
+
+thead tr th {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.tr_td td{
+    border-bottom: 1px solid #ccc !important;
+}
+
+.table>tbody {
+    vertical-align:middle !important;
+    text-align: center;
+}
+
+#root > div.p-5.container > div > div > table > thead > tr > th:nth-child(1),
+#root > div.p-5.container > div > div > table > thead > tr > th:nth-child(2),
+#root > div.p-5.container > div > div > table > thead > tr > th:nth-child(3),
+#root > div.p-5.container > div > div > table > thead > tr > th:nth-child(4){
+    width: 150px !important;
+}
+
+.table > tbody > tr img{
+    width: 75% !important;
+}
+
+.btn-remove,
+.btn-clear{
+    background-color: transparent !important;
+    color: var(--blackColor) !important;
+    border:  0 !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-clear,
+.btn-Proceed{
+    background-color: var(--blackColor) !important;
+    color: var(--wihitColor) !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    border-radius: 0 !important;
+    transition: all .4s;
+}
+
+.btn-clear:hover,
+.btn-Proceed:hover{
+    background-color: var(--wihitColor) !important;
+    border-radius: 0 !important;
+    color: var(--blackColor) !important;
+    border: 1px solid var(--blackColor) !important;
+}
+
+.totalPrice{
+    color: #b8860b;
+    font-weight: 500;
+}
