@@ -12,13 +12,11 @@ import HomePage from "../pages/Home/home";
 import Cart from "../pages/Cart/Cart";
 
 
-export const router = createBrowserRouter([
-{
+export const router = createBrowserRouter([{
     path:'',
     element:<MainPage />,
     errorElement: <ErrorPage />,
-    children:
-    [
+    children:[
         {
             path:'/',
             element:<HomePage />
@@ -45,8 +43,7 @@ export const router = createBrowserRouter([
                 {
                     path:'/Pages/Checkout',
                     element:<Checkout />,
-                }
-            ]
+                }]
         },
         {
             path:'/About',
@@ -57,10 +54,9 @@ export const router = createBrowserRouter([
             element:<ConatctPage />
         },
         // Can all routers matches
-        // {
-        //     path:"*",
-        //     element:<HomePage />
-        // }
-    ],
-}
-])
+        {
+            path:"*",
+            element:<HomePage />
+        }
+]
+,}])
