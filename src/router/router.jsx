@@ -57,10 +57,10 @@ export const router = createBrowserRouter([
             element:<ConatctPage />
         },
         // Can all routers matches
-        {
-            path:"*",
-            element:<HomePage />
-        }
+        // {
+        //     path:"*",
+        //     element:<HomePage />
+        // }
     ],
 }
 ])
